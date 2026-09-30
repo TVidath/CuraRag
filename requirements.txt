@@ -1,0 +1,20 @@
+# Core Dependencies
+pandas>=2.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Text Splitting & Tokenizer
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+tiktoken>=0.7.0
+
+# Dense Embedding & Vector Store Indexing
+langchain-huggingface>=0.0.1
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+pinecone-client>=3.0.0
+
+# Output Guardrails Safety & Evaluation
+detoxify>=0.5.0
+ragas>=0.1.0
+

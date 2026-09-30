@@ -1,0 +1,23 @@
+# Data & Samples (do not commit raw datasets or samples)
+data/
+samples/
+*.csv
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Configuration & Secrets
+.env
+.env.local
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
